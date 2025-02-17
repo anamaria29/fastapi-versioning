@@ -1,7 +1,5 @@
 #tarea
-from fastapi import FastAPI, status, HTTPException
-from fastapi.responses import JSONResponse
-import uuid
+from fastapi import FastAPI
 
 api = FastAPI(
     title= 'Tarea 2'
